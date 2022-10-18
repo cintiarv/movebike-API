@@ -34,6 +34,7 @@ const motoSchema = new mongoose.Schema({
     },
     vehicleType:{
         type: String, 
+        enum: ['moto', 'scooter'],
         required: true
     },
     assurance: {
