@@ -21,8 +21,8 @@ const userSchema = new mongoose.Schema({
         type: String, 
         required: true
     },
-    ID: {
-        type: Image, 
+    identification: {
+        type: String, 
         required: true
     },
     registrationDate: {
